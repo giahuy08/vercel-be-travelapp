@@ -188,7 +188,7 @@ exports.deleteForceDiscountAsync = async (id) => {
 exports.getAllDiscountOfTourByEXPAsync = async (idTour) => {
     try {
         const currentDate = new Date();
-        let startTimeByDay = new Date(currentDate).setHours(00, 00, 00, 000);
+        let startTimeByDay = new Date(currentDate);
         const discount = await DISCOUNT.find({
             idTour: idTour,
             endDiscount: {
