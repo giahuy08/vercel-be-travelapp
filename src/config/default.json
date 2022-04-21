@@ -1,0 +1,6 @@
+{
+    "vnp_TmnCode":"I9MOQNMX",
+    "vnp_HashSecret":" RUDDFWCFGKVHMJSVDFMWHBLIBDGHZUIX",
+    "vnp_Url":"https://sandbox.vnpayment.vn/paymentv2/vpcpay.html",
+    "vnp_ReturnUrl": "https://app-travelbe.herokuapp.com/vnpayment/vnpay_return"
+}
