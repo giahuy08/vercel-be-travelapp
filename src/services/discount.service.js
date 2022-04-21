@@ -22,7 +22,7 @@ exports.getAllDiscountByEXPAsync = async body => {
     try {
         const { skip, limit } = body;
         const currentDate = new Date();
-        let startTimeByDay = new Date(currentDate).setHours(00, 00, 00, 000);
+        let startTimeByDay = new Date(currentDate);
         const discount = await DISCOUNT.find({
             endDiscount: {
                 $gte: startTimeByDay,
